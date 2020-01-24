@@ -8,8 +8,10 @@ module.exports = data => {
   const params = {
     TableName: "employees",
     Item: {
-      name: data.name,
+      firstName: data.firstName,
+      lastName: data.lastName,
       address: data.address,
+      emailAddress: data.emailAddress,
       id: uuid.v1()
     }
   };
