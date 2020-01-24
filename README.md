@@ -1,5 +1,5 @@
 # employee_api
-REST API for stock management, built with the Serverless framework.
+REST API for employees management, built with the Serverless framework.
 ## Getting Started
 
 1. Install the serverless framework: `npm install -g serverless`
