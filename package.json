@@ -1,0 +1,19 @@
+{
+  "name": "stockup",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.205.0",
+    "uuid": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shalvah/stockup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shalvah/stockup/issues"
+  },
+  "homepage": "https://github.com/shalvah/stockup#readme"
+}
