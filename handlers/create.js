@@ -6,7 +6,7 @@ const uuid = require("uuid");
 
 module.exports = data => {
   const params = {
-    TableName: "employees",
+    TableName: "customers",
     Item: {
       firstName: data.firstName,
       lastName: data.lastName,

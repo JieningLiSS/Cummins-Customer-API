@@ -5,7 +5,7 @@ const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 module.exports = id => {
   const params = {
-    TableName: "employees",
+    TableName: "customers",
     Key: { id }
   };
   return dynamoDb.delete(params).promise();

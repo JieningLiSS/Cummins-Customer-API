@@ -1,4 +1,4 @@
-service: employeedynamo
+service: customers
 provider:
   name: aws
   runtime: nodejs12.x
@@ -16,44 +16,44 @@ provider:
         Fn::Join:
           - ""
           - - "arn:aws:dynamodb:*:*:table/"
-            - Ref: ProductsDynamoDbTable
+            - Ref: CustomersDynamoDbTable
 
 functions:
   create:
     handler: handler.create
     events:
       - http:
-          path: employees
+          path: customers
           method: post
           cors: true
   list:
     handler: handler.list
     events:
       - http:
-          path: employees
+          path: customers
           method: get
           cors: true
   view:
     handler: handler.view
     events:
       - http:
-          path: employees/{id}
+          path: customers/{id}
           method: get
           cors: true
   remove:
     handler: handler.remove
     events:
       - http:
-          path: employees/{id}
+          path: customers/{id}
           method: delete
           cors: true
 
 resources:
   Resources:
-    ProductsDynamoDbTable:
+    CustomersDynamoDbTable:
       Type: AWS::DynamoDB::Table
       Properties:
-        TableName: employees
+        TableName: customers
         AttributeDefinitions:
           - AttributeName: id
             AttributeType: S
