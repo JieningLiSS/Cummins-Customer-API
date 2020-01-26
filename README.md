@@ -5,9 +5,7 @@ REST API for customer management, built with the Serverless framework.
 ## Getting Started
 
 1. Install the serverless framework: `npm install -g serverless`
-2. Run `serverless install --url https://github.com/shalvah/stockup` to install the service
-3. Install dependencies: `cd stockup && npm install`
-4. Deploy: `serverless deploy` (You'll need to configure the serverless CLI with your AWS credentials; follow [these instructions](https://www.youtube.com/watch?v=HSd9uYj2LJA))
+2. Deploy: `serverless deploy` (You'll need to configure the serverless CLI with your AWS credentials; follow [these instructions](https://www.youtube.com/watch?v=HSd9uYj2LJA))
 
 ### Prerequisites
 
