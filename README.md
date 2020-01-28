@@ -2,10 +2,14 @@
 
 REST API for customer management, built with the Serverless framework.
 
-Endpoints:
+# Endpoints
+
 POST - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers
+
 GET - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers
+
 GET - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers/{id}
+
 DELETE - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers/{id}
 
 ## Getting Started
