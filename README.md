@@ -1,4 +1,4 @@
-# customer_api
+# cummins_customer_api
 
 REST API for customer management, built with the Serverless framework.
 
