@@ -17,7 +17,7 @@ DELETE - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers/{i
 1. Install the serverless framework: `npm install -g serverless`
 2. Deploy: `serverless deploy` (You'll need to configure the serverless CLI with your AWS credentials; follow [these instructions](https://www.youtube.com/watch?v=HSd9uYj2LJA))
 
-### Prerequisites
+## Prerequisites
 
 - Node.js v12.x or greater
 - An AWS account. You can sign up for a free account [here](http://aws.amazon.com/free)
