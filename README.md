@@ -2,6 +2,17 @@
 
 REST API for customer management, built with the Serverless framework.
 
+## Prerequisites
+
+- Node.js v12.x or greater
+- An AWS account. You can sign up for a free account [here](http://aws.amazon.com/free)
+
+## Built With
+
+- [the serverless framework](https://serverless.com/) - CLI tool for building serverless apps
+- [AWS Lambda Functions](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) - serverless cloud provider
+- [Node.js](nodejs.org)
+
 # Endpoints
 
 POST - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers
@@ -24,17 +35,6 @@ Before you can run tests, you need to set the CUSTOMERS_ENDPOINT environment var
 \$ > export CUSTOMERS_ENDPOINT=rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev
 
 \$ > npm test
-
-## Prerequisites
-
-- Node.js v12.x or greater
-- An AWS account. You can sign up for a free account [here](http://aws.amazon.com/free)
-
-## Built With
-
-- [the serverless framework](https://serverless.com/) - CLI tool for building serverless apps
-- [AWS Lambda Functions](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) - serverless cloud provider
-- [Node.js](nodejs.org)
 
 ## Acknowledgments
 
