@@ -21,8 +21,9 @@ DELETE - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers/{i
 
 Before you can run tests, you need to set the CUSTOMERS_ENDPOINT environment variable to the value of the domain name returned when you deployed your service. Using values from the example above:
 
-$ > export CUSTOMERS_ENDPOINT=rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev
-$ > npm test
+\$ > export CUSTOMERS_ENDPOINT=rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev
+
+\$ > npm test
 
 ## Prerequisites
 
