@@ -14,7 +14,7 @@ describe("Create, List, Delete", function() {
     };
     var desiredPayload = require("./data/newCustomer.json");
 
-    // Create the new todo
+    // Create the new customer
     var options = { url: path, form: JSON.stringify(desiredPayload) };
     request.post(options, function(err, res, body) {
       if (err) {
