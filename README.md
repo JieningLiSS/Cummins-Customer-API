@@ -17,6 +17,13 @@ DELETE - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers/{i
 1. Install the serverless framework: `npm install -g serverless`
 2. Deploy: `serverless deploy` (You'll need to configure the serverless CLI with your AWS credentials; follow [these instructions](https://www.youtube.com/watch?v=HSd9uYj2LJA))
 
+## Run Tests
+
+Before you can run tests, you need to set the CUSTOMERS_ENDPOINT environment variable to the value of the domain name returned when you deployed your service. Using values from the example above:
+
+$ > export CUSTOMERS_ENDPOINT=rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev
+$ > npm test
+
 ## Prerequisites
 
 - Node.js v12.x or greater
