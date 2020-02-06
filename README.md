@@ -16,9 +16,10 @@ REST API for customer management, built with the Serverless framework.
 ## Getting Started
 
 1. Install the serverless framework: `npm install -g serverless`
-2. Deploy: `serverless deploy` (You'll need to configure the serverless CLI with your AWS credentials; follow [these instructions](https://www.youtube.com/watch?v=HSd9uYj2LJA))
+2. Deploy: `serverless deploy`
+   (You will need to configure the serverless CLI with your AWS credentials; follow [these instructions](https://www.youtube.com/watch?v=HSd9uYj2LJA))
 
-# Endpoints
+## Endpoints
 
 POST - https://rpldlnzlfh.execute-api.us-east-1.amazonaws.com/dev/customers
 
